@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: outline;
+}
+.Wholediv{
+    width: 100%;
+    min-height: 100vh;
+            background: linear-gradient(
+            to bottom,
+            #020617,
+            #0F172A,
+            #155E75
+            );
+}
+.navdiv{
+    width: 100%;
+}
+.navdiv .nav-link{
+    margin-right: 20px;
+}
+/* resposive navbar-toggler color  */
+ .navbar-toggler{
+    border-color: white;
+}
+.navbar-toggler-icon{
+    /* filter: brightness(0) invert(1); */
+}
+.navbar-toggler{
+    background: transparent !important;
+    border: 1px solid white !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+/* text-photo-div   */
+.text-div{
+    width: 100%;
+    min-height: 450px;
+    /* background-color: magenta; */
+    text-align: center;
+    padding: 20px;
+}
+.text-div .photo-div{
+    width: 180px;
+    height: 190px;
+    /* background-color: lawngreen; */
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.photo-div img{
+    width: 180px;
+    height: 190px;
+    border-radius: 50%;
+}
+.text-div .top-my-name{
+    color: white;
+    font-size: 60px;
+    margin-top: 5px;
+}
+.text-div h3{
+    /* color: white; */
+    color: #00CFFF;
+    /* color: #7DD3FC; */
+    text-shadow: 0px 0px 20px #00CFFF;
+}
+.text-div .my-name{
+    color:aqua ;
+    text-shadow: 0px 0px 20px #00CFFF;
+}
+.text-div p{
+    font-size: 18px;
+    margin: 0px;
+    color: white;
+}
+.text-div button{
+    width: 170px;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    cursor: pointer;
+    color: white;
+    transition: all 1s;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+     background: linear-gradient(45deg, #00CFFF, #0066FF);
+    color: grey;
+    border: 2px solid white;
+    inset: -5px;
+    transform: scale(1.08);
+    box-shadow: 0 8px 25px white;
+    font-weight: bold;
+}
+button:active{
+    transform: scale(0.9);
+}
+
+@media screen  and (max-width:600px){
+    .text-div .top-my-name{
+    font-size: 40px;
+}
+    
+}

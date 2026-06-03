@@ -1,0 +1,154 @@
+ *{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: outline;
+}
+.Wholediv{
+    width: 100%;
+    min-height: 100vh;
+            background: linear-gradient(
+            to bottom,
+            #020617,
+            #0F172A,
+            #155E75
+            );
+            /* background-image: url("./bcimg.jpg");
+            background-size: 400px;
+            background-repeat: no; */
+}
+.navdiv{
+    width: 100%;
+}
+.navdiv .nav-link{
+    margin-right: 20px;
+}
+/* resposive navbar-toggler color  */
+ .navbar-toggler{
+    border-color: white;
+}
+.navbar-toggler-icon{
+    filter: brightness(0) invert(1);
+}
+.education-container{
+    width: 100%;
+    min-height: 450px;
+    /* background-color: lawngreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.deg-div{
+    width: 30%;
+    min-height: 300px;
+    /* background-color: magenta; */
+    padding: 50px 30px 0 0 ;
+}
+.deg-div h4, .sslc-div h4, .hsc-div h4{
+    background-color: rgba(255, 255, 255, 0.297);
+    display: inline;
+    padding: 8px 25px 8px 25px;
+    border-radius: 27px;
+    color: white;
+    border: 2px solid white;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 10px;
+}
+.deg-div h5, .sslc-div h5, .hsc-div h5{
+    margin-top: 36px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+   text-shadow:
+        1px 1px 0 #155E75,
+        2px 2px 0 #0E7490,
+        3px 3px 0 #0891B2,
+        4px 4px 8px rgba(0, 207, 255, 0.4);
+}
+.deg-div h6, .sslc-div h6, .hsc-div h6{
+    font-size: 20px;
+    color: white;
+}
+.school{
+    width: 30%;
+    min-height: 450px;
+    /* background-color: khaki; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.sslc-div{
+    width:100% ;
+    min-height: auto;
+    /* background-color: aquamarine; */
+}
+.hsc-div{
+    width: 100%;
+    min-height: auto;
+    /* background-color: darkcyan; */
+}
+
+@media screen and (max-width:600px) {
+
+    .education-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+    }
+
+    .deg-div{
+        width: 100%;
+        min-height: auto;
+        padding: 40px 15px 20px 15px;
+    }
+    
+    .school{
+        width: 100%;
+        min-height: auto;
+        padding: 0px;
+        gap: 20px;
+    }
+    .sslc-div{
+        padding: 20px 15px 0px 15px;
+    }
+    .hsc-div{
+        padding: 20px 15px 20px 15px;
+    }
+
+    
+}
+
+@media screen and (max-width:1000px) {
+
+    .education-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+    }
+
+    .deg-div{
+        width: 100%;
+        min-height: auto;
+        padding: 40px 15px 20px 15px;
+    }
+    
+    .school{
+        width: 100%;
+        min-height: auto;
+        padding: 0px;
+        gap: 20px;
+    }
+    .sslc-div{
+        padding: 20px 15px 0px 15px;
+    }
+    .hsc-div{
+        padding: 20px 15px 20px 15px;
+    }
+
+    
+}
